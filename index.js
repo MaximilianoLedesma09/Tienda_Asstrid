@@ -1,9 +1,20 @@
-const file = require('express');
-const app = express();
-const port = 3000;
+const express = require("express");
 
-app.get('/', (req, res) => {
-  res.send('Hello World!');
+const app = express();
+
+const productRouter =
+  require("./src/routes/productRouter");
+
+app.use(express.json());
+
+app.get("/", (req, res) => {
+  res.send("API Tienda funcionando");
 });
-app.listen(port, () => {  console.log(`Example app listening at http://localhost:${port}`);
+
+app.use("/products", productRouter);
+
+app.listen(3000, () => {
+  console.log(
+    "Servidor corriendo en http://localhost:3000"
+  );
 });
