@@ -1,0 +1,23 @@
+{
+  "name": "tiendaasstrid",
+  "version": "1.0.0",
+  "description": "Tienda online",
+  "homepage": "https://github.com/MaximilianoLedesma09/Tienda_Asstrid#readme",
+  "bugs": {
+    "url": "https://github.com/MaximilianoLedesma09/Tienda_Asstrid/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaximilianoLedesma09/Tienda_Asstrid.git"
+  },
+  "license": "ISC",
+  "author": "maxiledesma882@gmail.com",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
