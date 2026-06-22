@@ -1,4 +1,4 @@
-const products = require("../models/productsModel");
+const products = require("../models/Product");
 
 const getProducts = () => {
   return products;
